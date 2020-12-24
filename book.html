@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Bookings</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="./main.css"><!--if not working, use Disney%20land--> 
+</head>
+<body id="edit1">
+  <div class="container" id="edit2">
+    <div class="row">
+      <div class="col-xs-12">
+      	<div class="bd-example bd-example-tabs" id="edit3">
+        	<ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+          		<li class="nav-item">
+            	<a class="nav-link" id="pills-home-tab" href="./home.html" role="tab" aria-controls="pills-home" aria-expanded="true">Home</a>
+		         </li>
+          		<li class="nav-item">
+            		<a class="nav-link" id="pills-about-tab" href="./about.html" role="tab" aria-controls="pills-about" aria-expanded="true">About</a>
+          		</li>
+          		<li class="nav-item">
+            	<a class="nav-link active" id="pills-about-tab" href="#" role="tab" aria-controls="pills-about" aria-expanded="true">Book Now</a>
+          		</li>
+        	</ul>
+        </div>
+   
+    	<img src=".\images\bookings\parks.jpg" width=100% ><br><br>
+        
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" style="padding:0px;border-radius:25px 25px 0px 0px;">
+  			<a class="navbar-brand" href="#" style="padding: 0px;">
+  				<img src="./images/logo.jpg" style="width:120px;padding-left: 20px;">
+			  </a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    		<span class="navbar-toggler-icon"></span>
+  			</button>
+ 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    			<ul class="nav navbar-nav">
+      				<a class="nav-item nav-link" data-toggle="tab" href="#TPT">Theme Park Tickets</a>
+      				<a class="nav-item nav-link" data-toggle="tab" href="#SET">Special Event Tickets</a>
+        			<a class="nav-item nav-link" data-toggle="tab" href="#AP">Annual Passports</a>
+        			<a class="nav-item nav-link" data-toggle="tab" href="#SHOP" >Book Now</a>    			
+   				</ul>
+  			</div> 
+		</nav>
+		
+		<div class="tab-content">
+  			<div class="tab-pane active" id="TPT" >
+  				<h2>Theme Park Tickets</h2>
+  					<p style="font-size:20px;margin-bottom: 0px;">Discover the excitement of the Disneyland Resort in Anaheim, California, featuring 2 amazing theme parks—Disneyland Park - Opens a dialog and Disney California Adventure Park - Opens a dialog! A multi-day ticket will let you make the most of your visit and see all that both parks have to offer!</p>
+  					<div class="form-check" style="display: inline-block;width:500px;height: 100px;font-size: 25px;vertical-align: top;">
+  						<input type="radio" class="form-check-input" id="materialChecked" name="type" value="first">
+  						<label class="form-check-label" for="materialChecked" >&emsp;Products and Prices for All Guests</label>
+					  </div>
+  					<div class="form-check"style="display: inline-block;width:500px;height: 100px;font-size: 25px;padding-left: 10px;vertical-align: top;">
+  						<input type="radio" class="form-check-input" id="materialUnchecked" name="type" value="second">
+  						<label class="form-check-label" for="materialUnchecked">&emsp;Limited-Time Special Ticket Offer</label><br><small>Come back to the magic for just a 3 day ticket<p style="color:powderblue">Offer Details</p></small>
+					  </div>
+            <div id="box" hidden="true">
+					   <h2>Select the Number of Days</h2>
+					     <p style="font-size: 20px;">Purchase a 3-day,4-day or 5-day ticket online to enjoy one Magic Morning early admission!</p>
+					     <div style="color:white;width:1080px;height: 156px;text-align: center">
+						      <div style="width: 180px;display: inline-block;vertical-align: top;">
+							       <div style="font-size: 30px;">1</div>
+							       Prices vary by date.
+						      </div>
+						      <div style="width: 180px;display: inline-block;">
+							       <div style="font-size: 30px;">2</div>
+							       <div style="font-size: 15px;">From</div><h3>$105<sup>00</sup></h3><br><br>
+						      </div>
+						      <div style="width: 180px;display: inline-block;"	><div style="font-size: 30px;">3</div>
+							     <div style="font-size: 15px;">From</div><h3>$93<sup>34</sup></h3>
+							     <div style="color: powderblue">Includes one Magic Morning</div>
+						      </div>
+						      <div style="width: 180px;display: inline-block;">	<div style="font-size: 30px;">4</div>
+							       <div style="font-size: 15px;">From</div><h3>$76<sup>25</sup></h3>
+							       <div style="color: powderblue">Includes one Magic Morning</div>
+						      </div>
+						      <div style="width: 180px;display: inline-block;"	><div style="font-size: 30px;">5</div>
+							     <div style="font-size: 15px;">From</div><h3>$64<sup>00</sup></h3>
+							     <div style="color: powderblue">Includes one Magic Morning</div>
+						      </div>
+					       </div>	
+					       <p style="color: white;font-weight: 700">*Price (USD) per day, per ticket(Age 10+).</p>
+            </div>
+            <div id="hi" hidden="true"/>Hi</div>
+  	    </div>
+      	<div class="tab-pane" id="SET">
+      		<h2>Special Event Tickets</h2>
+      			<div style="height: 170px;">
+      				  <img src=".\images\bookings\SET2.jpg" style="display: inline-block;padding-bottom: 60px;">
+      				<div style="display: inline-block;width:650px;"><br><h3>Mickey's Halloween Party</h3><p>The spook-tacular fun has come to an end, but you can look forward to a ghoulish good time next year. Check back in the Spring for more information.</p>
+      				</div>
+      				<div style="display: inline-block;width:250px;font-size: 15px;"><p style="font-weight: bold;">Not Currently Available</p>
+					     Tickets will be available closer to the event dates. Please check back</div>
+      			</div>
+      			<div style="height: 170px;">
+      				<img src=".\images\bookings\SET3.jpg" style="display: inline-block;padding-bottom: 60px;">
+      				<div style="display: inline-block;width:650px;"><br><h3>Disneyland After Dark: Sweethearts' Nite</h3><p>Tickets are no longer available. But join us for future Disneyland After Dark events, featuring specialty entertainment, themed food and much more!</p>
+      				</div>
+      				<div style="display: inline-block;width:250px;font-size: 15px;"><p style="font-weight: bold;">Sold Out
+					   </p>
+					   Tickets for this event are no longer available for online purchases.</div>
+      			</div>
+      			<div style="height: 170px;">
+      				<img src=".\images\bookings\SET1.jpg" style="display: inline-block;padding-bottom: 60px;">
+      				<div style="display: inline-block;width:650px;"><br><h3>Disneyland After Dark: 90s Nite</h3><p>Tickets are no longer available. But join us for future Disneyland After Dark events, featuring specialty entertainment, themed food and much more!</p>
+      				</div>
+      				<div style="display: inline-block;width:250px;font-size: 15px;"><p style="font-weight: bold;">Sold Out
+      				</p>Tickets for this event are no longer available for online purchase
+					</div>	
+            </div>   
+      	</div>
+      	
+     		<div class="tab-pane" id="AP" >
+     		 	<h2>Annual Passports</h2>
+     		 	Enjoy valuable discounts, outstanding offers and invitations to Passholder events!<p style="color:powderblue">Renew your Pass</p>
+     		 	<div style="height: 170px;">
+      				<img src=".\images\bookings\AP1.jpg" style="display: inline-block;padding-bottom: 100px;width: 250px;">
+      				<div style="display: inline-block;width:650px;">	<br><h4>Disney Deluxe 		Passport</h4>
+      					<ul>
+      						<li>Admission to one or both theme parks during select days of the year</li>
+							<li>Up to 10% off select dining</li>
+							<li>Up to 10% off select merchandise in store or online at Shop Disney Parks</li>
+							<li>Blockout dates apply and vary by theme park.</li> 
+							<li>Blockout dates include holidays and other peak days.</li>
+      					</ul>
+      				</div>
+      				<div style="display: inline-block;width:200px;font-size: 15px;"><p style=	"font-weight: bold;">Prices 	from</p>Ages 3+<p style="font-size:30px;">$729<sup>	00</sup></p>
+					</div>
+      			</div>
+      			<div style="height: 170px;">
+      				<img src=".\images\bookings\AP2.jpg" style="display: inline-block;padding-bottom: 100px;width: 250px;">
+      				<div style="display: inline-block;width:650px;"><br><br><h4>Disney Signature Passport</h4>
+      					<ul>
+      						<li>Admission to one or both theme parks most days of the year</li>
+							<li>Up to 15% off select dining</li>
+							<li>Up to 20% off select merchandise in store or online at Shop Disney Parks</li>
+							<li>Standard theme park parking</li> 
+							<li>Blockout dates apply and vary by theme park. Blockout dates include holidays and other peak days.</li>
+      					</ul>
+      				</div>
+      				<div style="display: inline-block;width:200px;font-size: 15px;">
+      					<p style="font-weight: 	bold;">Prices from</p>Ages 3+<p style="font-size:30px;">$729<sup>00</sup></p>
+					</div>
+				</div>
+				<div style="height: 170px;">
+      				<img src=".\images\bookings\AP3.jpg" style="display: inline-block;padding-bottom: 100px;width: 250px;">
+      				<div style="display: inline-block;width:650px;"><br><br><br><br><h4>Disney Signature Plus Passport</h4>
+      					<ul>
+      						<li>Admission to the parks every day of the year</li>
+							   <li>Visit both theme parks on the same day</li>
+							   <li>Includes the Disney MaxPass feature</li>
+							   <li>Up to 15% off select dining</li> 
+							   <li>Up to 20% off select merchandise in store or online at Shop Disney Parks</li>
+							   <li>Standard theme park parking</li>
+      					</ul>
+      				</div>
+      				<div style="display: inline-block;width:200px;font-size: 15px;">
+      					<p style="font-weight: 	bold;">Prices from</p>Ages 3+<p style="font-size:30px;">$1,149<sup>00</sup></p>
+					    </div>
+				    </div>
+			   </div>
+     		<div class="tab-pane" id="SHOP">
+     			<br>
+           <h2 style="padding-left: 20px;">Book Now</h2>
+          <form action="" method="" style="background-color: pink;padding-top: 10px;">
+            
+              <div class="form-check-inline" style="padding-left: 40px;padding-right: 80px;">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio"style="vertical-align: top;" >
+                Eurostar+Hotel
+                </label>
+              </div>
+              <div class="form-check-inline" style="padding-right: 80px;">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio"style="vertical-align: top;">Flights+Hotel
+                </label>
+              </div>
+              <div class="form-check-inline" style="padding-right: 80px;">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio" style="vertical-align: top;">Self Drive + Hotel(via P&O or Eurotunnel)
+                </label>
+              </div>
+              <div class="form-check-inline" style="padding-right: 80px;">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio"style="vertical-align: top;" >Hotel Only
+                </label>
+              </div><br><hr>&emsp;
+
+              Departing:<input type="date" name="date" placeholder="date">
+              <label style="padding-left: 50px;">Nights:</label>
+              <select>
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option>
+              </select>
+              <label style="padding-left:50px;">Adults(18+):</label>
+              <select>
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+              </select><label style="padding-left: 50px;">Children(below 18):</label>
+              <select>
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+              </select><br>&emsp;
+              Departing:
+              <select>
+                <option>Morning</option><option>Evening</option>
+              </select>
+              <label style="padding-left: 133px;">Returning:</label>
+              <select>
+                <option>Morning</option>
+                <option>Evening</option>
+              </select>
+              <button class="btn btn-success" value="submit"style="margin-left:28em;">Submit</button><br><br>
+          </form><br>
+     		 	<h2 style="padding-left: 20px;">Offers and Benefits</h2>
+     		 	<img src="./images/bookings/OB.jpg" style="width: 100%">
+          <div style="width: 1141px;height: 375px;">
+            <div style="display: inline-block;width:375px;height: 375px;padding-left: 20px;vertical-align: top;background-color:white;">
+              <div style="font-size: 40px;">Save upto 25% on Select Rooms</div>
+              Enjoy a magical stay at a Disneyland Resort hotel! Offer valid for stays most Sunday-Thursday nights January 6th to April 11,2019 when you book by March 16,2019.<br>&emsp;
+              <button type="button" class="btn btn-primary">Get Details</button>
+              &emsp;
+              <button type="button" class="btn btn-outline-primary">View All Offers</button>
+            </div>
+            <div style="display: inline-block;">
+               <img src="./images/bookings/house.jpg" style="width: 383px;height: 375px;vertical-align: top">
+            </div>
+            <div style="background-color: brown;color: white;width:374.2px;height:375px;display: inline-block;vertical-align: top;padding-left:10px";>
+              <div style="font-size: 40px;">Limited-Time Special Ticket Offer!</div>
+              Visit the theme parks for as low as $70 per day when you purchase a 3-day, 1-Park Per Day Ticket. Valid January 7 to May 23,2019. Block out dates apply.
+              <div>
+                <a href="#" style="font-weight:800px;color: powderblue">Learn More</a>
+              </div> 
+            </div>
+          </div>
+     		 	<br><br>
+     		 	<h3 style="padding-left: 20px;">Shop, Plan and Play</h3>
+     		 	<div style="width:100%;">
+     		 		<div style="display: inline-block;padding-right: 30px;padding-left: 12px;">
+     		 			<img src="./images/bookings/SPP1.jpg" width="350px;" height=350px;>
+     		 		</div>
+     		 		<div style="display: inline-block;padding-right: 30px;">
+     		 			<img src="./images/bookings/SPP2.jpg" width="350px" height="350px;">
+     		 		</div>
+     		 		<div style="display: inline-block;">
+     		 			<img src="./images/bookings/SPP3.jpg" width="350px" height="350px">
+     		 		</div>
+     		 	</div><br>
+     		</div>      
+  		</div> 
+      </div>
+  	</div>
+  	
+  </div>
+
+  <div class="row">
+      <footer class="col-sm-12"><br>
+        <p class="text-center">&copy; copyright Harsha Venkat 2018</p>
+      </footer>
+  </div>
+  
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap.min.js">  </script>
+  <script src="./js/del.js"></script>
+</body>
+</html>
+ 

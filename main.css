@@ -1,0 +1,139 @@
+.my-sidebar{
+	margin-top: 20px;
+}
+#edit3{
+	background-color: white;
+	border-radius: 25px 25px 0px 0px;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+#edit2{
+	background-color: white;
+	border-radius: 25px 25px 0px 0px;
+	margin-bottom: -14px;
+}
+#edit1{
+	background-color:#ade0ed;
+	padding-top: 10px;
+}
+.navbar-default {
+  background-color:#ade0ed;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+ #aside{
+ 	border: 1px solid blue;
+ 	padding-bottom: 10px;
+ 	background-color:#93b1e2;
+ }
+ #cb{
+ 	text-align: center;
+ 	font-weight: bold;
+ }
+ #edit4{
+ 	text-align: center;
+ 	color: blue;
+ 	font-size: 150%;
+ }
+ #sh{
+ 	text-align: left;
+ 	font-weight: bold;
+ 	width: 28%;
+ 	display:inline;
+ }
+ #rb{
+ 	float: right;
+ 	width: 72%;
+ 	color: blue;
+ }
+ #box1{
+	width: 350px;
+	float: left;
+	display: inline;
+}
+#box2{
+	width: 350px;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: inline; 
+}
+#box3{
+	width: 350px;
+	float: left;
+	display: inline;
+}
+#content{
+	float: left;
+	width:60%;
+	height: 192px;
+	padding-left: 50px;
+}
+#picture{
+	width:40%;
+	height: 192px;
+}
+#TPT{
+  background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.3)),url("./images/bookings/DC.jpg");
+  height: 560px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  padding-left: 20px;
+ } 
+ #SET{
+  background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.3)),url("./images/welcome.jpg");
+  height: 560px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  color: white;
+  padding-left: 20px;
+ } 
+ #AP{
+  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.3)),url("./images/all.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  color: white;
+  padding-left: 20px;
+ }
+input[type=radio]{
+	width: 25px;
+	height:25px;
+}
+
+video {
+  max-width: 100%;
+  display: block;
+}
+.video-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* Take the height of the video */
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  background-color: transparent;
+}
+.foreground {
+  position: absolute; /* Positioning it at the top of background block */
+  top: 0;
+  left: 0;
+  width: 100%;        /* Take full width of the parent block */
+  height: 100%;       /* Take full height of the parent block */
+  background-color: rgba(0,0,0,0.5); /* to create transparent background */
+}
+.foreground h1 {
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 120px;
+  border-top: 3px solid yellow;
+  border-bottom: 3px;}
